@@ -22,3 +22,9 @@ console.log(typeof (str))
 console.log(typeof (str2))
 
 console.log(parseFloat(num2))
+
+if (4 > 5) {
+    console.log("4 is less than 5")
+} else {
+    console.log("4 is not less than 5")
+}
