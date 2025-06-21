@@ -51,34 +51,70 @@
 //     console.log("5 is greater than 4")
 // }
 
-var mCar = {
-    "company": "Corolla",
-    "model": "2007",
-    "NumberPlate": "ANK369",
-    "color": "off White",
-    "EngineCapacity": "1100cc",
-    "isAutomatic": false,
-    "features": ["Air Conditioning", "Power Steering", "Anti-lock Braking System"]
-}
+// var mCar = {
+//     "company": "Corolla",
+//     "model": "2007",
+//     "NumberPlate": "ANK369",
+//     "color": "off White",
+//     "EngineCapacity": "1100cc",
+//     "isAutomatic": false,
+//     "features": ["Air Conditioning", "Power Steering", "Anti-lock Braking System"]
+// }
 
-// console.log(typeof (mCar));
+// // console.log(typeof (mCar));
 
-var mCar2 = {
-    name: "Toyota",
-    manufacturer: {
-        name: "Toyota Motor Corporation",
-        country: "Japan"
-    },
-    topSpeed: 180,
-    features: ["Cruise Control", "Leather Seats", "Bluetooth Connectivity"],
-    colors: "Red",
-    applybreaks: function () {
-        setTimeout(function () {
-            console.log("Applying breaks after 2 seconds CAR STOPPED ");
-        }
-        ), 5000
-    }
-}
-console.log(mCar2);
+// var mCar2 = {
+//     name: "Toyota",
+//     manufacturer: {
+//         name: "Toyota Motor Corporation",
+//         country: "Japan"
+//     },
+//     topSpeed: 180,
+//     features: ["Cruise Control", "Leather Seats", "Bluetooth Connectivity"],
+//     colors: "Red",
+//     applybreaks: function () {
+//         setTimeout(function () {
+//             console.log("Applying breaks after 2 seconds CAR STOPPED ");
+//         }
+//         ), 5000
+//     }
+//  ["John", "Jane", "Doe", "Alice", "Bob"];
+// console.log(names[0]); // Output: John
+// names.push("Charlie");
+// console.log(names); // Output: ["John", "Jane", "Doe", "Alice", "Bob", "Charlie"]
+// console.log(names.length); // Output: 6
+// console.log(names.indexOf("Alice")); // Output: 3
+// names.pop();
+// console.log(names); // Output: ["John", "Jane", "Doe", "Bob", "Charlie"]// }
+// console.log(mCar2);
 
-console.log(mCar2.applybreaks());
+// console.log(mCar2.applybreaks());
+
+// var friends = ["John", "Jane", "Doe", "Alice", "Bob"];
+// friends.splice(0, 0, "donna", "reacheal");
+// // console.log(friends); // Output: ["John", "Jane", "donna", "reacheal", "Doe", "Alice", "Bob"]
+// friends.splice(2, 1,);
+// // console.log(friends); // Output: ["John", "Jane", "reacheal", "Doe", "Alice", "Bob"]
+
+// var concatt = ["faizan", "ali", "khan"];
+
+// var allfr = friends.concat(concatt)
+// console.log(allfr); // Output: ["John", "Jane", "reacheal", "Doe", "Alice", "Bob", "faizan", "ali", "khan"]
+
+// allfr.sort();
+// console.log(allfr); // Output: ["Alice", "Bob", "Doe", "Jane", "John", "faizan", "khan", "reacheal"]
+
+// allfr.reverse();
+// console.log(allfr); // Output: ["khan", "faizan", "John", "Jane", "Doe", "Bob", "Alice", "reacheal"]
+
+
+// while (val < 10) {
+//     console.log("i am sorry for the inconvenience, please try again later");
+//     val++;
+// }
+
+// var val = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
+
+// for (var i = 0; i < val.length; i++) {
+//     console.log("hello for loop index start " + val[i] + " index " + i);
+// }
