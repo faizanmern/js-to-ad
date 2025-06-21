@@ -61,4 +61,24 @@ var mCar = {
     "features": ["Air Conditioning", "Power Steering", "Anti-lock Braking System"]
 }
 
-console.log(typeof (mCar));
+// console.log(typeof (mCar));
+
+var mCar2 = {
+    name: "Toyota",
+    manufacturer: {
+        name: "Toyota Motor Corporation",
+        country: "Japan"
+    },
+    topSpeed: 180,
+    features: ["Cruise Control", "Leather Seats", "Bluetooth Connectivity"],
+    colors: "Red",
+    applybreaks: function () {
+        setTimeout(function () {
+            console.log("Applying breaks after 2 seconds CAR STOPPED ");
+        }
+        ), 5000
+    }
+}
+console.log(mCar2);
+
+console.log(mCar2.applybreaks());
