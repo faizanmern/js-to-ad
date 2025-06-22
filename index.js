@@ -118,3 +118,31 @@
 // for (var i = 0; i < val.length; i++) {
 //     console.log("hello for loop index start " + val[i] + " index " + i);
 // }
+
+// function mysum() {
+//     var num1 = 10;
+//     var num2 = 20;
+
+//     var sum = num1 + num2;
+//     console.log("The sum of " + num1 + " and " + num2 + " is: " + sum);
+// }
+// mysum();
+
+// function myfun() {
+//     var num3 = 10;
+//     var num4 = 20;
+//     var suma = num3 + num4;
+
+//     // return console.log(suma);
+//     console.log("The sum of " + num3 + " and " + num4 + " is: " + suma);
+
+// }
+
+
+function myfun(num1, num2) {
+    var suma = num1 + num2;
+    return console.log("The sum of " + num1 + " and " + num2 + " is: " + suma);
+
+}
+
+myfun(10, 20);
