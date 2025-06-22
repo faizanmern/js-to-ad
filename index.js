@@ -133,7 +133,6 @@
 //     var num4 = 20;
 //     var suma = num3 + num4;
 
-//     // return console.log(suma);
 //     console.log("The sum of " + num3 + " and " + num4 + " is: " + suma);
 
 // }
