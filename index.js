@@ -138,10 +138,10 @@
 // }
 
 
-function myfun(num1, num2) {
-    var suma = num1 + num2;
-    return console.log("The sum of " + num1 + " and " + num2 + " is: " + suma);
+// function myfun(num1, num2) {
+//     var suma = num1 + num2;
+//     return console.log("The sum of " + num1 + " and " + num2 + " is: " + suma);
 
-}
+// }
 
-myfun(10, 20);
+// myfun(10, 20);
