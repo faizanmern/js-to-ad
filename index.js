@@ -155,13 +155,24 @@
 // sum = num1 + hsa
 // console.log("The sum of " + num1 + " and " + hsa + " is: " + sum);
 
-var total = 100
-var num = function (num1, num2) {
+// var total = 100
+// var num = function (num1, num2) {
 
-    total = num1 + num2;
-    console.log(total);
+//     total = num1 + num2;
+//     console.log(total);
 
-    var total;
+//     var total;
+// }
+
+// num(10, 20);
+
+
+var nav = document.getElementById("nav");
+nav.addEventListener("click", function(event) {
+    if (event.target.tagName === "A") {
+        event.preventDefault(); // Prevent default anchor behavior
+        var target = event.target.getAttribute("href").substring(1); // Get the target section ID
+        console.log("Navigating to section:", target);
+        // Here you can add code to scroll to the section or load content dynamically
+    }
 }
-
-num(10, 20);

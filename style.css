@@ -1,0 +1,13 @@
+#nav {
+    background-color: #5eff94;
+    color: white;
+    padding: 10;
+ /* vertically center items */
+}
+#nav a {
+    text-decoration: none;
+    margin-right: 15px; /* space between links */
+}
+#nav a:hover {
+    color: #ff0000; /* change color on hover */
+}
