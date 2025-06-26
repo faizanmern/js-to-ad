@@ -145,3 +145,23 @@
 // }
 
 // myfun(10, 20);
+// console.log(num1);
+// num1 = 20
+// console.log(num1)
+
+// hsa = 10
+// console.log(hsa)
+
+// sum = num1 + hsa
+// console.log("The sum of " + num1 + " and " + hsa + " is: " + sum);
+
+var total = 100
+var num = function (num1, num2) {
+
+    total = num1 + num2;
+    console.log(total);
+
+    var total;
+}
+
+num(10, 20);
