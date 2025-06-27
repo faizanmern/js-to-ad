@@ -168,11 +168,14 @@
 
 
 var nav = document.getElementById("nav");
-nav.addEventListener("click", function(event) {
+nav.addEventListener("click", function (event) {
     if (event.target.tagName === "A") {
         event.preventDefault(); // Prevent default anchor behavior
         var target = event.target.getAttribute("href").substring(1); // Get the target section ID
         console.log("Navigating to section:", target);
         // Here you can add code to scroll to the section or load content dynamically
     }
-}
+});
+
+console.log(document.getElementsByTagName("img"));
+
